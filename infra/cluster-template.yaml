@@ -30,6 +30,4 @@ name: workers
 machines:
   - f69f3c42-d744-83da-b7bf-d248d41084f3
   - 7fd23c42-25d1-f419-ee6a-f682fe5b2bf2
-  - 6dbd3c42-6daf-fe45-1731-18f295044ca2
   - 88873c42-0868-4ce4-ed8d-477dbca3f8c4
-  - bd1d3c42-6a4f-978a-19d7-b3717f3f71f2
