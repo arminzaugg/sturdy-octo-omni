@@ -42,12 +42,8 @@ spec:
   crashCollector:
     disable: true
   storage:
-    useAllNodes: false
-    useAllDevices: false
-    nodes:
-      - name: 'talos-031-df2'
-        devices:
-          - name: '/dev/nvme0n1'
+    useAllNodes: true
+    useAllDevices: true
   healthCheck:
     daemonHealth:
       mon:
