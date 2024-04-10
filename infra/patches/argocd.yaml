@@ -20970,7 +20970,7 @@ cluster:
         metadata:
           annotations:
             omni-kube-service-exposer.sidero.dev/label: ArgoCD
-            omni-kube-service-exposer.sidero.dev/port: "50081"
+            omni-kube-service-exposer.sidero.dev/port: "50083"
           labels:
             app.kubernetes.io/component: server
             app.kubernetes.io/name: argocd-server
@@ -22279,7 +22279,7 @@ cluster:
               generators:
               - list:
                   elements:
-                  - repoPath: omni/apps/*/*
+                  - repoPath: apps/*/*
                     repoURL: https://github.com/arminzaugg/sturdy-octo-omni.git
                     revision: HEAD
               - git:

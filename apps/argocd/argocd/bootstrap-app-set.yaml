@@ -10,7 +10,7 @@ spec:
               elements:
                 - repoURL: https://github.com/arminzaugg/sturdy-octo-omni.git
                   revision: HEAD
-                  repoPath: examples/omni/apps/*/*
+                  repoPath: apps/*/*
           - git:
               repoURL: '{{ repoURL }}'
               revision: '{{ revision }}'
