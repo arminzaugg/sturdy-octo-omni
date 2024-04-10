@@ -22,6 +22,8 @@ patches:
     file: patches/cilium.yaml
   - name: monitoring
     file: patches/monitoring.yaml
+  - name: argocd
+    file: patches/argocd.yaml
 ---
 kind: Workers
 name: workers

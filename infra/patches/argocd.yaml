@@ -22279,7 +22279,7 @@ cluster:
               generators:
               - list:
                   elements:
-                  - repoPath: examples/omni/apps/*/*
+                  - repoPath: omni/apps/*/*
                     repoURL: https://github.com/arminzaugg/sturdy-octo-omni.git
                     revision: HEAD
               - git:
