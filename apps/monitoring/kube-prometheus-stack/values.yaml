@@ -2,7 +2,7 @@ kube-prometheus-stack:
   # NOTE: These must be set manually to the control plane IP addresses
   kubeEtcd:
    endpoints:
-     - 10.10.10.30/24
+     - 10.10.10.30
   #    - x.y.z.b
   #    - x.y.z.c
   kubeControllerManager:
