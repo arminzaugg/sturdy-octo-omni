@@ -17,9 +17,9 @@ spec:
     - name: replicated
       failureDomain: osd
       replicated:
-        size: 1
+        size: 3
         requireSafeReplicaSize: false
   preserveFilesystemOnDelete: false
   metadataServer:
-    activeCount: 1
+    activeCount: 3
     activeStandby: true
