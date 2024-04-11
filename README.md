@@ -47,3 +47,21 @@ Applications can be made of Helm charts, Kustomize definitions, or just Kubernet
 3. Regenerate the ArgoCD bootstrap cluster manifest patch [argocd.yaml](infra/patches/argocd.yaml) (instructions can be found at the top of that file).
 4. Commit and push these changes to a hosted git repository the Omni instance has access to.
 5. Create a cluster with Omni as described above. 
+
+
+
+## Gotchas
+
+1. Pay attention to pod security rules, if in doubt set.
+```kubectl label ns rook-ceph pod-security.kubernetes.io/audit=privileged pod-security.kubernetes.io/enforce=privileged pod-security.kubernetes.io/warn=privileged```
+2. hubble UI is not http, use port forward to access.
+
+
+## glasskube
+
+used to install cert-manager, created manually
+
+## OLM
+
+testing out. installed CRD manually.
+
